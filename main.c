@@ -2,6 +2,9 @@
 
 int main(){
     int i = 13;
-    printf("hello\n", i);
+    while (i < 10){
+      printf("hello\n", i);
+      i++;
+    }
     return 0;
 }
